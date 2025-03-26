@@ -1,1 +1,52 @@
+# Question 1 answer
+
+my_list = []  # Created an empty list
+
+# Question 2 answer.
+
+my_list = [10, 20, 30, 40] # A straightforward way😂
+
+my_list.extend([10, 20, 30, 40]) # This extends the numbers into my_list, useful for extending numbers from one list to another.
+
+print(my_list)  # Prints output
+
+# Question 3 answer
+
+my_list = [10, 20, 30, 40]
+
+my_list.insert(1, 15) # this inserts number 15 to the second postion in the list
+
+print(my_list)
+
+# Question 4 answer.
+
+my_list = [10, 20, 30, 40]
+
+second_list = [50, 60, 70] # The second list
+
+my_list.extend(second_list) # This extends the second list or puts the second list at the end of the my_list
+
+print("List after append:", my_list) # Prints the list after extending second_list to my_list
+
+# Question 5 answer
+
+my_list = [10, 20, 30, 40] 
+
+my_list.remove(40) # Removes 40 from the list, the last element
+
+print(my_list)
+
+# Question 6 answer
+
+my_list = [10, 20, 30, 40]
+
+my_list.sort() # Sorts the list in ascending order.
+
+# Question 7 answer
+
+my_list = [10, 20, 30, 40]
+
+index_of_30 = my_list.index(30) #Finds the index of 30 in the list.
+
+print(index_of_30) # Prints the index of 30 which is 2.
 
